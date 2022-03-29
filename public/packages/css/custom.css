@@ -1,0 +1,44 @@
+/*
+ custom.css
+ oftalmoplus-plantillas
+ Created by Bitmad Solutions
+ Copyright 2017 root. All rights reserved.
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+body {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.input-counter{
+	text-align: center;
+	font-size: 2em !important
+}
+
+.form-compt .btn-block, .fcb-block{
+	font-size: 1.5em !important;
+}
+
+
+a {
+    color: #565656;
+   
+}
+
+.statistics table th{
+	border-left: 1px solid black;
+}
+
+.statistics table{
+	font-size: 0.8em !important;
+    border-right: 5px gray solid;
+}
+
+.lborder{
+	border-left: 1px solid black;
+}
+tfoot{
+	background: #e8e8e8;
+	font-weight: bold;
+}

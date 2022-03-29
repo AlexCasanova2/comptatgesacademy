@@ -1,0 +1,134 @@
+/*
+ login.css
+ witl-plantillas
+ Created by STKDevelopers S.L on 2016-04-08.
+ Copyright 2016 root. All rights reserved.
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300,100);
+
+body {
+	/*background: url('../images/01-Home_op2_8.jpg');*/
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center bottom;
+	background-attachment: fixed;
+	padding-top: 50px;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+h1 {
+	font-weight: 300;
+	color: #757575;
+}
+
+h3 {
+	color: #757575;
+}
+
+.mymodal {
+	color: #E63D47;
+}
+
+.mymodal:hover, .mymodal:focus {
+	color: #E63D47;
+}
+
+img.title {
+	height: 100px;
+}
+
+.well {
+	border-radius: 0;
+	background-color: #FFFFFF;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-top: 1px solid #a9a9a9;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+	padding: 0;
+}
+
+.btn-witl {
+	color: #FFFFFF;
+	background-color: #a9a9a9;
+	border-color: #a9a9a9;
+	border-radius: 0;
+	font-size: 25px;
+}
+
+.btn-witl:hover, .btn-witl:focus, .btn-witl:active {
+	color: #FFFFFF;
+	background-color: #757575;
+	border-color: #757575;
+	border-radius: 0;
+}
+.form-login i {
+	padding: 15px;
+	font-size: 1.5em;
+	color: #808080;
+}
+
+.title-list {
+	color: #FFFFFF;
+	font-weight: 300;
+}
+.title-list small {
+	color: #FFFFFF;
+	font-weight: 100;
+}
+
+input.user-input {
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 1.5em;
+	padding: 5;
+	border: 0px;
+	border-bottom: 2px solid #B3B3B3;
+}
+
+input.user-input:focus {
+	border: 0;
+	box-shadow: 0;
+	border-bottom: 2px solid #454545;
+}
+
+.panel-right .list-unstyled {
+	color: #FFFFFF;
+	font-weight: lighter;
+}
+.well {
+	padding-top: 25px;
+	margin-top: 20px;
+}
+.well .wrap {
+	padding: 15px;
+}
+
+.content {
+	text-align: center;
+	display: inline-block;
+	max-width: 40%;
+}
+
+.content .title {
+	font-size: 3em;
+}
+.content #loginform {
+	padding: 3em;
+	margin-top: 2em;
+	border: 1px solid #eee;
+	background-color: #eaeaea;
+}
+.content .table {
+	width: 100%;
+}
+.content .table td {
+	text-align: left;
+	color: #111;
+	font-weight: bold;
+}
+.content .table th, .left {
+	text-align: left;
+}
